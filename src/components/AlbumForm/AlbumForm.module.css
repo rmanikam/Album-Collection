@@ -1,0 +1,77 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outerContainer {
+  border: 1px solid black;
+  width: 531px;
+  height: 300px;
+  padding: 32px;
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.userIdContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.userId {
+  text-align: center;
+  margin-right: 44px;
+  width: 80px;
+  margin-top: 3px;
+  margin-left: -33px;
+}
+
+.inputId {
+  padding: 6px;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.albumTitle {
+  text-align: center;
+  margin-right: 10px;
+  width: 121px;
+  margin-top: 3px;
+  margin-left: -32px;
+}
+
+.inputTitle {
+  padding: 6px;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 118px;
+  margin-top: 50px;
+}
+button {
+  width: 101px;
+  height: 31px;
+  margin-right: 136px;
+  color: white;
+  background-color: blue;
+}

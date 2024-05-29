@@ -1,0 +1,38 @@
+.albumsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.albums {
+  border: 1px solid black;
+  width: 23%;
+  height: 174px;
+  margin: 10px;
+  padding: 3px;
+  background-color: dodgerblue;
+  position: relative;
+}
+
+.buttonContainer {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  align-items: baseline;
+  margin-top: 85px;
+}
+
+button {
+  width: 101px;
+  height: 31px;
+  margin-right: 136px;
+}
+
+button.update {
+  background-color: blue;
+}
+button.delete {
+  background-color: red;
+}
